@@ -1,4 +1,4 @@
-package com.taskbase.persistencia;
+package com.taskbaseapi.persistencia;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class Conexao {
 
-  private static final String URL = "jdbc:postgresql://localhost:5432/taskflow_database";
+  private static final String URL = "jdbc:postgresql://localhost:5432/taskbaseapi";
   private static final String USUARIO = "postgres";
   private static final String SENHA = "123";
 

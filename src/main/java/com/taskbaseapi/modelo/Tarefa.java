@@ -1,4 +1,4 @@
-package com.taskbase.modelo;
+package com.taskbaseapi.modelo;
 
 import java.sql.Timestamp;
 

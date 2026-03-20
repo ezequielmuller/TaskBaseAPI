@@ -1,4 +1,4 @@
-package com.taskbase.modelo;
+package com.taskbaseapi.modelo;
 
 public class Grupo {
   private Integer gp_id;

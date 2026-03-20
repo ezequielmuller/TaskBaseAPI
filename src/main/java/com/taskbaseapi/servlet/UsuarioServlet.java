@@ -1,7 +1,7 @@
-package com.taskbase.servlet;
+package com.taskbaseapi.servlet;
 
-import com.taskbase.modelo.Usuario;
-import com.taskbase.persistencia.UsuarioDAO;
+import com.taskbaseapi.modelo.Usuario;
+import com.taskbaseapi.persistencia.UsuarioDAO;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;

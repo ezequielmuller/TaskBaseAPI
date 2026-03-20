@@ -1,6 +1,6 @@
-package com.taskbase.persistencia;
+package com.taskbaseapi.persistencia;
 
-import com.taskbase.modelo.Usuario;
+import com.taskbaseapi.modelo.Usuario;
 
 import java.sql.*;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.taskbase.modelo;
+package com.taskbaseapi.modelo;
 
 public class Usuario {
   private Integer usu_id;
