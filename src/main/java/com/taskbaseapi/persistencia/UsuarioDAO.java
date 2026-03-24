@@ -44,8 +44,8 @@ public class UsuarioDAO extends Conexao {
 
   public Usuario gravarUsuario(String nome, String email, String senha, Boolean gerenciador) throws SQLException {
     try (Connection con = conectar()) {
-      Usuario novoUsuario = new Usuario(0, nome, email, senha, gerenciador);
       con.setAutoCommit(false);
+      Usuario novoUsuario = new Usuario(0, nome, email, senha, gerenciador);
 
       try (PreparedStatement ps = con.prepareStatement(GRAVAR_USUARIO)) {
         ps.setString(1, novoUsuario.getUsu_nome());
@@ -68,6 +68,5 @@ public class UsuarioDAO extends Conexao {
       return novoUsuario;
     }
   }
-
 
 }
