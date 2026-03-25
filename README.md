@@ -27,9 +27,9 @@ taskbase-api/
 │   └── main/
 │       ├── java/
 │       │   └── com/taskbaseapi/
-│       │       ├── persistencia/          # Data Access Objects (DAO) - Services
-│       │       ├── modelo/        # Entidades/Classes
-│       │       └── servlet/      # Servlets (Controllers)
+│       │       ├── persistencia/          # Data Access Objects (DAO)
+│       │       ├── modelo/                # Entidades/Classes
+│       │       └── servlet/               # Servlets
 │       └── webapp/
 │           └── WEB-INF/
 │               └── web.xml
